@@ -1,0 +1,17 @@
+[package]
+name = "halium"
+version = "1.0.0"
+edition = "2021"
+description = "Fast, automated desktop compiler from Python scripts (.py) into standalone executables (.exe) written in Rust"
+license = "MIT"
+
+[[bin]]
+name = "halium"
+path = "src/main.rs"
+
+[dependencies]
+eframe = "0.29"
+rfd = "0.15"
+regex = "1.10"
+tempfile = "3.14"
+which = "7.0"

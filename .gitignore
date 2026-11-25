@@ -1,0 +1,13 @@
+/target/
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+/mingw_tools/
+/mingw_libs/
+/.cargo/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
